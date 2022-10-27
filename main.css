@@ -1,0 +1,183 @@
+.container {
+    max-width: 100%;
+}
+
+body {
+    background-image: url("diablo\ III\ bground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+}
+
+header {
+    backface-visibility: hidden;
+    color: aliceblue;
+    text-align: center;
+    box-sizing: border-box;
+    height: 50px;
+    margin: 0px;
+    padding-top: 40px;
+}
+
+h1 {
+    margin: 0;
+    color: rgb(17, 12, 11);
+    text-decoration: underline;
+    text-shadow: 15px 15px 10px rgb(31, 21, 20);
+}
+
+main {
+    box-sizing: border-box;
+    min-height: 500px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    box-shadow: rgb(31, 21, 20);
+    backface-visibility: hidden;
+    border-radius: 15px;
+    border: solid 4px rgb(17, 12, 11);
+}   
+
+main h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: underline; 
+    color: rgb(17, 12, 11);
+    text-shadow: 15px 15px 10px rgb(31, 21, 20);
+}
+
+hr {
+    border: solid 2px rgb(31, 21, 20);
+}
+
+main form {
+    text-align: center;
+}
+
+main form input {
+    margin: 5px;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Franklin Ghotic Medium', 'Arial Narrow', 'Arial', sans-serif;
+
+}
+
+main form input[type=text] {
+    font-family: 'Franklin Ghotic Medium', 'Arial Narrow', 'Arial', sans-serif;
+    margin: 5px;
+    padding: 8px;
+    text-align: center;
+    color: rgb(31, 21, 20);
+    border: none;
+    border: solid 2px rgb(31, 21, 20);
+    font-size: medium;
+}
+
+main form input [type=password] {
+    font-size: larger;
+}
+
+main form input [type=email] {
+    font-size: larger;
+}
+
+main form input [type=number] {
+    font-size: larger;
+}
+
+main form input [type=date] {
+    font-size: larger;
+}
+
+main form input[type=text]::placeholder-shown {
+    border: none;
+    border-bottom: solid 2px rgba(31, 21, 20, 0.300);
+}
+
+main form input[type=text]::placeholder {
+    color: rgba(31, 21, 20, 0.800);
+    
+}
+
+main form input[type=password]::placeholder {
+    color: rgba(31, 21, 20, 0.800);
+    font-weight: 800;
+    font-size: larger;
+} 
+
+main form input[type=email]::placeholder {
+    color: rgba(31, 21, 20, 0.800);
+    font-weight: 800;
+    font-size: larger;
+}
+
+main form input[type=number]::placeholder {
+    color: rgba(31, 21, 20, 0.800);
+    font-weight: 800;
+    font-size: larger;
+}
+
+main form input[type=date]::placeholder {
+    color: rgba(31, 21, 20, 0.800);
+    font-weight: 800;
+    font-size: larger;
+}
+
+.info {
+    border-color: rgb(31, 21, 20);
+    background-color: rgba(129, 112, 90, 0.5);
+    border-radius: 15px;
+    height: 40px;
+    width: 250px;
+    font-weight: 800;
+}
+
+main form input[type=submit] {
+    margin: 10px;
+    padding: 5px;
+    font-weight: 800;
+    font-size: larger;
+    color: rgb(31, 21, 20);
+    border: solid 2px rgb(31, 21, 20);
+}
+
+main form input[type=submit]:active {
+    border: solid 2px dar;
+    color: rgb(31, 21, 20);
+}
+
+#gomb {
+    cursor: pointer;
+    background-color: rgba(129, 112, 90, 0.5);
+}
+
+.button {
+    background-color: rgb(17, 12, 11);
+    border: black;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+  
+  
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgb(17, 12, 11),0 17px 50px 0 rgb(17, 12, 11);
+}
+
+footer {
+    text-align: left;
+    font-size: 10px;
+}
+
+

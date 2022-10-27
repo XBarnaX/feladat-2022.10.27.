@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karaktergenerátor</title>
+
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+<body class="container">
+
+    <header>
+        <h1>
+            Karakter Regisztrálás
+        </h1>
+    </header>
+
+    <main>
+        <h2>Regisztráció</h2>
+
+        <hr>
+
+        <form action="">
+            
+
+            <input type="text" name="name" 
+            class="info" placeholder="Teljes név"/>
+            <br>
+            <input type="email" name="email" 
+            class="info" placeholder="Email cím"/>
+            <br>
+            <input type="password" name="passw" 
+            class="info" placeholder="Jelszó"/>
+            <br>
+            <input type="password" name="passw" 
+            class="info" placeholder="Jelszó megismétlése"/>
+
+            <br>
+            
+            <input type="number" name="caracter_age" 
+            class="info" placeholder="Életkor"/>
+            <br>
+            <input type="date" name="character_date_of_birth"
+            class="info" placeholder="Születési dátum"/>
+
+            <br>
+
+            <label for="g_female">Nő</label>
+            <input type="radio" name="gender" class="gender" value="f">
+
+            <label for="g_male">Férfi</label>
+            <input type="radio" name="gender" class="gender" value="m">
+
+            <br><br>
+
+            <button class="button button2" type="submit" 
+            onclick="alert('Sikeres regisztráció!!!')">Létrehozás</button>
+
+            <footer>
+                Copiright@
+            </footer>
+
+        </form>
+
+    </main>
+
+
+    
+</body>
+</html>
